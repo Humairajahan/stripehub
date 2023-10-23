@@ -20,7 +20,7 @@ Our codebase only contains the backend code required for integrating a custom pa
 
 The following criterias have been met in this development:
 
-`Product and pricing model`
+### `Product and pricing model`
 
 - [ ] Only admins have the access to create products and pricing models.
 - [ ] Admins can create multiple pricing models for the same product i.e. the subscription package for a product can vary as per monthy, half-yearly or yearly. 
