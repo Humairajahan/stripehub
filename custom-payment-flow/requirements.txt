@@ -1,3 +1,5 @@
 stripe==7.0.0
 python-dotenv==0.21.1
 pydantic==1.10.2
+fastapi==0.103.2
+uvicorn==0.22.0

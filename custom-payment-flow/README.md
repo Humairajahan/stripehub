@@ -23,7 +23,7 @@ The following criterias have been met in this development:
 ### `Product and pricing model`
 
 - [ ] Only admins have the access to create products and pricing models.
-- [ ] Admins can create multiple pricing models for the same product i.e. the subscription package for a product can vary as per monthy, half-yearly or yearly. 
-- [ ] The pricing model has been made `recurring` with a **monthly** renewal. 
-- [ ] The admin can only create pricing models for the following currencies: `usd`, `eur` and `inr`. If you want to allow support for more currencies in this application, please follow [this](https://stripe.com/docs/currencies?presentment-currency=IN).
+- [X] Admins can create multiple pricing models for the same product i.e. the subscription package for a product can vary as per monthly or yearly. 
+- [X] The pricing model has been made `recurring`.
+- [X] The admin can only create pricing models for the following currencies: `usd`, `eur` and `inr`. If you want to allow support for more currencies in this application, please follow [this](https://stripe.com/docs/currencies?presentment-currency=IN).
 - [ ] Admins can create discounts or coupons for the pricing models.
