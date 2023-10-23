@@ -26,3 +26,4 @@ The following criterias have been met in this development:
 - [X] Admins can create multiple pricing models for the same product i.e. the subscription package for a product can vary as per monthly or yearly. 
 - [X] The pricing model has been made `recurring`.
 - [X] The admin can only create pricing models for the following currencies: `usd`, `eur` and `inr`. If you want to allow support for more currencies in this application, please follow [this](https://stripe.com/docs/currencies?presentment-currency=IN).
+- [X] The application will notify through webhooks once a customer completes a payment. Currently it is just a `post` request. In the future, it can be extended to notifying the admin and the client through emails.
