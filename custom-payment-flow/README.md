@@ -1,4 +1,4 @@
-# Checkout integration with a custom payment flow
+# Checkout integration with a custom payment flow for a recurring pricing model
 
 **Stripe** supports 3 types of payment integration. 
 - [ ] Checkout with Stripe-hosted page 
