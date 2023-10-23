@@ -7,11 +7,14 @@
 
 While implementation of the first 2 requires a `low-code integration` (you only need to create checkout sessions and read updates on them in the backend while stripe handles the rest), the third option lets us explore further into the customization of the payment flow. Here, we are going to implement this one.
 
+## Source code
 The source code for this is available on Stripe's documentation.
 1. [Quickstart](https://stripe.com/docs/payments/quickstart)
 2. [Text-based guide](https://stripe.com/docs/payments/accept-a-payment?ui=elements)
 
 You can implement the full-stack application with Stripe's **integration builder** which you may find on their quickstart page by clicking on the `Download full app`.
+
+## Project outline
 
 Our codebase only contains the backend code required for integrating a custom payment flow with your website or application. 
 
