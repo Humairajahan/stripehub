@@ -37,6 +37,7 @@ async def create_checkout_session(request: Checkout):
 
         checkout_session = stripe.checkout.Session.create(
             line_items=line_items,
+            discounts=[{"coupon": request.coupon_id}],
             mode="payment",
             success_url=f"{DOMAIN_NAME}/success.html",
             cancel_url=f"{DOMAIN_NAME}/cancel.html",
