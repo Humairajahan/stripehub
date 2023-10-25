@@ -17,4 +17,4 @@ The following criterias have been met in this development:
 - [ ] Only admins have access to admin-specified resources.
 - [X] Admins can create multiple pricing models for the same product i.e. subscription package for a product can vary as per monthly or yearly.
 - [ ] Admins can add discounts via coupons and promotion codes.
-- [ ] The admin can only create pricing models for the currency `usd` only. If you want to allow support for more currencies in this application, please follow [this](https://stripe.com/docs/currencies?presentment-currency=IN)
+- [X] The admin can only create pricing models for the currency `usd` only. If you want to allow support for more currencies in this application, please follow [this](https://stripe.com/docs/currencies?presentment-currency=IN)

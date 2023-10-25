@@ -17,3 +17,11 @@ class ProductPriceCreation(BaseModel):
     product: Product
     price_data: List[PricingModel]
     
+    
+class ProductsForCheckout(BaseModel):
+    price: str
+    quantity: int
+    
+    
+class Checkout(BaseModel):
+    line_items: List[ProductsForCheckout]
